@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap");
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+body {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+
+.item1, .item2, .item3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.receipe {
+  display: flex;
+  gap: 64px;
+}
+
+a {
+  font-weight: bold;
+}
