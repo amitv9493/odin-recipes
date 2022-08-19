@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+
+  font-family: "Oswald", sans-serif;
 }
 .logo img {
   height: 80px;
@@ -10,7 +13,6 @@ html, body {
 }
 
 body {
-  font-family: "Alumni Sans Pinstripe", sans-serif;
 }
 .logo {
   display: flex;
@@ -19,25 +21,27 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 450px;
-    border-radius: 10px;
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
 }
 .container {
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  gap: 10px;
 }
 
-.item1, .item2, .item3 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.item1,
+.item2,
+.item3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .receipe {
@@ -47,4 +51,16 @@ a {
 
 a {
   font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: rgb(211, 206, 206);
+  padding: 1px;
+  margin: 1px;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-weight: 300;
 }
